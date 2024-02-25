@@ -3,6 +3,7 @@ import Category from "../../Category/Category";
 import Count from "../../Count/Count";
 import Header from "../../Shared/Header/Header";
 import TopSelling from "../../TopSelling/TopSelling";
+import Logo from "../../logo/logo";
 
 const Home = () => {
     return (
@@ -12,6 +13,7 @@ const Home = () => {
             <Count />
             <Category />
             <TopSelling />
+            <Logo />
         </div>
     );
 };
