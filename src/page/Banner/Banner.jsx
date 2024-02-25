@@ -1,8 +1,10 @@
 import banner from '../../assets/Component 3.png';
+import Header from '../Shared/Header/Header';
 const Banner = () => {
     return (
-        <div>
-            <div className="hero min-h-screen mx-auto px-4">
+        <div className='bg-emerald-600 pt-5 '>
+            <Header />
+            <div className=" hero min-h-screen ">
                 <div className="hero-content flex-col lg:flex-row-reverse">
                     <img src={banner} className="max-w-sm rounded-lg " />
                     <div>

@@ -2,7 +2,7 @@ import logo from '../../../assets/logo_master.png';
 const Header = () => {
     return (
         <div className=''>
-            <div className="navbar bg-base-100 rounded-xl">
+            <div className="navbar bg-base-100 rounded-xl  mx-auto w-3/4">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">

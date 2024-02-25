@@ -4,7 +4,7 @@ import App from './App.jsx'
 import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <div className='bg-emerald-600 container mx-auto px-4 '>
+  <div className='  '>
     <React.StrictMode >
       <App />
     </React.StrictMode>,
